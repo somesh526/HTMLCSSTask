@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.epam{
+          height: 100%;
+          width:  100%;
+          background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(banner.jpg);
+          background-position: center;
+          background-size: cover;
+          position: absolute;
+ }
+.form-box{
+                 width: 280px;
+                 height: 400px;
+                 position: relative;
+                 margin: 6% auto;
+                 background: #fff;
+                 padding: 5px;
+}
+.input-group{
+                     top:10px;
+                     position:absolute;
+                     width:280px;
+                     transition:.5s;
+}
+.input-field {
+                   width:100%;
+                
+                   padding: 10px 0;
+                   margin:5px 0;
+                   border-left:1px soild grey;
+                   border-top:1px soild grey;
+                   border-right:1px soild grey;
+                   border-bottom: 1px soild grey;
+                   outline:none;
+                   background:transparent;
+}  
+.submit-btn{
+               width:100%;
+               padding:10px 30px;
+               cursor: pointer;
+               display:block;
+               margin:auto;
+               background-color:skyblue ;
+               border:0;
+               outline:none;
+               color:white;
+   }
+.button1{
+               width:100%;
+               padding:10px 20px;
+               cursor: pointer;
+               display:block;
+               margin:auto;
+               background-color:navy ;
+               border:0;
+               outline:none;
+               font-size:16px;
+               color:white;
+}
+.button2{
+               width:100%;
+               padding:10px 20px;
+               cursor: pointer;
+               display:block;
+               margin:auto;
+               background-color:crimson ;
+               border:0;
+               outline:none;
+               font-size:16px;
+               color:white;
+}
+h1{
+color:white;
+background-color:skyblue;
+font-size:26px;
+}
+h2{
+color:white;
+text-align:center;
+background-color:yellowgreen;
+font-size:16px;
+}
+
+h3 {
+    font-family: 20px Palatino Linotype;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    z-index: 1;
+    color: grey;
+}
+h3:before {
+
+    border-top: 2px solid grey;
+    content:"";
+    margin: 0 auto; 
+    position: absolute; 
+    top: 15px; left: 0; right: 0; bottom: 0;
+    width: 65%;
+    z-index: -1;
+    color: light gray;
+}
+h3 span { 
+    color: light grey;
+    background: #fff; 
+    padding: 0 10px; 
+}
